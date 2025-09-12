@@ -1,0 +1,9 @@
+C:/Users/Borges/Documents/CRYENGINE Projects/CryAdventure/solutions/win64/CMakeFiles/Game.dir
+C:/Users/Borges/Documents/CRYENGINE Projects/CryAdventure/solutions/win64/CMakeFiles/GameLauncher.dir
+C:/Users/Borges/Documents/CRYENGINE Projects/CryAdventure/solutions/win64/CMakeFiles/Editor.dir
+C:/Users/Borges/Documents/CRYENGINE Projects/CryAdventure/solutions/win64/CMakeFiles/GameServer.dir
+C:/Users/Borges/Documents/CRYENGINE Projects/CryAdventure/solutions/win64/CMakeFiles/INSTALL.dir
+C:/Users/Borges/Documents/CRYENGINE Projects/CryAdventure/solutions/win64/CMakeFiles/ALL_BUILD.dir
+C:/Users/Borges/Documents/CRYENGINE Projects/CryAdventure/solutions/win64/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Borges/Documents/CRYENGINE Projects/CryAdventure/solutions/win64/CRYENGINE/CMakeFiles/INSTALL.dir
+C:/Users/Borges/Documents/CRYENGINE Projects/CryAdventure/solutions/win64/CRYENGINE/CMakeFiles/ALL_BUILD.dir

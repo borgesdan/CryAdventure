@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Character" guid="dd6c9a88-0ebb-77d7-a0dd-32665b9430ef">
+ <Files>
+  <File path="default_char_standing.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>Objects/Characters/DefaultCharacter/default_char_standing.chr</Path>
+  <Path>Objects/Characters/DefaultCharacter/default_char_standing.mtl</Path>
+  <Path>Objects/Characters/DefaultCharacter/default_char_standing_Alpha_Joints.skin</Path>
+  <Path>Objects/Characters/defaultcharacter/default_char_standing.mtl</Path>
+  <Path>Objects/Characters/defaultcharacter/default_char_standing_Alpha_Surface.skin</Path>
+  <Path>Objects/Characters/defaultcharacter/default_char_standing.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

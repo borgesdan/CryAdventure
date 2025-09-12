@@ -2,6 +2,7 @@
 // This file is auto generated, do not manually edit it.
 
 #include <StdAfx.h>
+#include <C:/Users/Borges/Documents/CRYENGINE Projects/CryAdventure/Code/Components/MainPlayer.cpp>
 #include <C:/Users/Borges/Documents/CRYENGINE Projects/CryAdventure/Code/Components/Player.cpp>
 #include <C:/Users/Borges/Documents/CRYENGINE Projects/CryAdventure/Code/Components/SpawnPoint.cpp>
 

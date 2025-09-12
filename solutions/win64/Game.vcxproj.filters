@@ -13,6 +13,9 @@
     <ClInclude Include="C:\Users\Borges\Documents\CRYENGINE Projects\CryAdventure\Code\GamePlugin.cpp" />
     <ClInclude Include="C:\Users\Borges\Documents\CRYENGINE Projects\CryAdventure\Code\GamePlugin.h" />
     <ClInclude Include="C:\Users\Borges\Documents\CRYENGINE Projects\CryAdventure\Code\StdAfx.h" />
+    <ClInclude Include="C:\Users\Borges\Documents\CRYENGINE Projects\CryAdventure\Code\Components\MainPlayer.cpp">
+      <Filter>Components</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\Borges\Documents\CRYENGINE Projects\CryAdventure\Code\Components\Player.cpp">
       <Filter>Components</Filter>
     </ClInclude>
@@ -20,6 +23,9 @@
       <Filter>Components</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\Borges\Documents\CRYENGINE Projects\CryAdventure\Code\Components\Bullet.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Borges\Documents\CRYENGINE Projects\CryAdventure\Code\Components\MainPlayer.h">
       <Filter>Components</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\Borges\Documents\CRYENGINE Projects\CryAdventure\Code\Components\Player.h">

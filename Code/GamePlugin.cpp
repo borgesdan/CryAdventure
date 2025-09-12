@@ -107,7 +107,7 @@ bool CGamePlugin::OnClientConnectionReceived(int channelId, bool bIsReset)
 	}
 
 	//Chamada para exibir o jogador padrão ao iniciar um level.
-	SpawnPlayerEntity(spawnParams, channelId);	
+	//SpawnPlayerEntity(spawnParams, channelId);	
 
 	return true;
 }

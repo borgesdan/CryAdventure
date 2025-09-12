@@ -1,0 +1,58 @@
+Blender
+Character Pipeline Reorienting Animations
+https://www.youtube.com/watch?v=gVPx0b3KCwk
+
+File > Import > Fbx
+Select fbx file > right sidebar > Armature section > Set "Automatic Bone Orientation"
+Rename imported model in "Scene Collection"
+
+Click "Animation" tab
+Check animation frame count and set the value in 'End'
+
+Select imported model
+Set Rotation 
+X: 90
+Z: 180
+
+Turn Edit Mode
+Click Add > Single Bone
+Select Bone
+Open Transform pop-up > 
+length: 40
+
+deselect bone
+
+With model selected
+Navigate to "Object Data Properties"
+Expand "Viewport Display" section > Set "In front"
+
+Select rip bone
+Hold SHIFT
+Select root bone
+Press CTRL + P > Keep Offset
+
+Rename root bone to 'root'
+
+Select root bone
+Change to Pose Mode
+Open Transform pop-up
+Change Rotation to XYZ Euler
+Rotation
+X: 90
+Z: 180
+
+Select 1 frame
+Select Root bone + CTRL + Select rip bone
+Go to Pose > Animation > Bake Action
+Deselect "Only Selected Bones"
+
+
+Select all bones
+In animation tool
+Select mxamorigHips > deselect Z Location
+
+Go to Pose > Animation > Bake Animation
+
+File > Export > FBX
+Set Bake Animation in right sidebar
+

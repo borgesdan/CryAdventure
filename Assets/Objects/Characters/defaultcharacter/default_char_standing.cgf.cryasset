@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="25a5a67d-542f-be36-0335-066f7259f32a" source="default_char_standing.fbx">
+ <Files>
+  <File path="default_char_standing.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">55320</Detail>
+  <Detail name="vertexCount">35451</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./default_char_standing.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

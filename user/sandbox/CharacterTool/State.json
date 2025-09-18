@@ -80,7 +80,7 @@
 					"bottomColor": { "r": 32, "g": 32, "b": 32, "a": 255 }
 				}
 			},
-			"playbackTime": 4.01897
+			"playbackTime": 0.29509
 		}
 	},
 	"dockWidgetManager": {
@@ -105,26 +105,32 @@
 						"expandedItems": [
 							"Characters",
 							"Skeletons",
-							"Animations (objects/characters/defaultcharacter/)",
+							"Animations (animations/motusanims/)",
 							"Compression (Animations/)",
 							"Compression (Animations/)|Compression Presets",
 							"Compression (Animations/)|DBA Table",
-							"Animations (objects/characters/defaultcharacter/)|default_char_standing_DefaultChar_Action_001",
-							"Animations (objects/characters/defaultcharacter/)|default_char_standing_DefaultChar_Armature_mixamo_com_Layer0",
+							"Animations (animations/motusanims/)|idle_3p",
+							"Animations (animations/motusanims/)|jog_bck_3p",
+							"Animations (animations/motusanims/)|jog_fwd_3p",
+							"Animations (animations/motusanims/)|run_fwd_3p",
+							"Animations (animations/motusanims/)|walk_bck_3p",
+							"Animations (animations/motusanims/)|walk_fwd_3p",
 							"Skeletons|Objects",
+							"Skeletons|Objects|Characters",
+							"Skeletons|Objects|Characters|SampleCharacter",
 							"Characters|Objects",
 							"Characters|Objects|Characters",
-							"Characters|Objects|Characters|defaultcharacter"
+							"Characters|Objects|Characters|SampleCharacter"
 						],
 						"selectedItems": [
-							"Animations (objects/characters/defaultcharacter/)|default_char_standing_DefaultChar_Action_001",
-							"Animations (objects/characters/defaultcharacter/)",
-							"Animations (objects/characters/defaultcharacter/)|398 KB",
-							"Animations (objects/characters/defaultcharacter/)|181",
-							"Animations (objects/characters/defaultcharacter/)",
-							"Animations (objects/characters/defaultcharacter/)"
+							"Characters|Objects|Characters|SampleCharacter|thirdperson.cdf",
+							"Characters|Objects|Characters|SampleCharacter",
+							"Characters|Objects|Characters|SampleCharacter",
+							"Characters|Objects|Characters|SampleCharacter",
+							"Characters|Objects|Characters|SampleCharacter",
+							"Characters|Objects|Characters|SampleCharacter"
 						],
-						"currentItem": "Animations (objects/characters/defaultcharacter/)|default_char_standing_DefaultChar_Action_001",
+						"currentItem": "Characters|Objects|Characters|SampleCharacter|thirdperson.cdf",
 						"sectionsHidden": [ 1, 2, 3, 4, 5 ],
 						"sectionsVisible": [ 0 ]
 					}
@@ -144,9 +150,9 @@
 	"playbackPanel": { "timeUnits": "seconds" },
 	"propertiesPanel": {
 		"propertyTree": {
-			"focusedRow": [ 6, 1 ],
-			"selection": [ [ 6, 1 ] ],
-			"expanded": [ 1, 1, 1 ]
+			"focusedRow": [ ],
+			"selection": [ ],
+			"expanded": [ 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1 ]
 		},
 		"outlineMode": "oneTree"
 	},
@@ -164,8 +170,9 @@
 		"palette": { "addWithSingleClick": false, "hotkeys": [ ] }
 	},
 	"recentCharacters": [
-		"Objects/Characters/defaultcharacter/default_char_standing.cdf",
-		"Objects/Characters/SampleCharacter/thirdperson.cdf"
+		"Objects/Characters/SampleCharacter/thirdperson.cdf",
+		"Objects/Characters/SampleCharacter/firstperson.cdf",
+		"Objects/Characters/defaultcharacter/default_char_standing.cdf"
 	],
 	"windowGeometry": [
 		1, 217, 208, 203, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 53, 0, 0, 3, 80, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -177,8 +184,8 @@
 		0, 0, 0, 30, 0, 69, 0, 120, 0, 112, 0, 108, 0, 111, 0, 114, 0, 101, 0, 114, 0, 80, 0, 97, 0, 110, 0, 101, 0, 108, 0, 45,
 		0, 48, 1, 0, 0, 0, 0, 0, 0, 2, 234, 0, 0, 0, 107, 0, 255, 255, 255, 0, 0, 0, 1, 0, 0, 1, 67, 0, 0, 2, 234, 252,
 		2, 0, 0, 0, 4, 251, 0, 0, 0, 32, 0, 115, 0, 99, 0, 101, 0, 110, 0, 101, 0, 95, 0, 112, 0, 97, 0, 114, 0, 97, 0, 109,
-		0, 101, 0, 116, 0, 101, 0, 114, 0, 115, 1, 0, 0, 0, 0, 0, 0, 0, 127, 0, 0, 0, 23, 0, 255, 255, 255, 251, 0, 0, 0, 20,
-		0, 112, 0, 114, 0, 111, 0, 112, 0, 101, 0, 114, 0, 116, 0, 105, 0, 101, 0, 115, 1, 0, 0, 0, 133, 0, 0, 2, 101, 0, 0, 0,
+		0, 101, 0, 116, 0, 101, 0, 114, 0, 115, 1, 0, 0, 0, 0, 0, 0, 0, 103, 0, 0, 0, 23, 0, 255, 255, 255, 251, 0, 0, 0, 20,
+		0, 112, 0, 114, 0, 111, 0, 112, 0, 101, 0, 114, 0, 116, 0, 105, 0, 101, 0, 115, 1, 0, 0, 0, 109, 0, 0, 2, 125, 0, 0, 0,
 		81, 0, 255, 255, 255, 251, 0, 0, 0, 38, 0, 98, 0, 108, 0, 101, 0, 110, 0, 100, 0, 95, 0, 115, 0, 112, 0, 97, 0, 99, 0, 101,
 		0, 95, 0, 112, 0, 114, 0, 101, 0, 118, 0, 105, 0, 101, 0, 119, 0, 0, 0, 0, 0, 255, 255, 255, 255, 0, 0, 0, 223, 0, 255, 255,
 		255, 251, 0, 0, 0, 36, 0, 97, 0, 110, 0, 105, 0, 109, 0, 95, 0, 101, 0, 118, 0, 101, 0, 110, 0, 116, 0, 95, 0, 112, 0, 114,

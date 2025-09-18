@@ -290,7 +290,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Code\Helpers\ComponentHelper.h" />
     <ClInclude Include="C:\Users\Borges\Documents\CRYENGINE Projects\CryAdventure\Code\GamePlugin.cpp" />
+    <ClCompile Include="..\..\Code\Helpers\ComponentHelper.cpp" />
     <ClCompile Include="C:\Users\Borges\Documents\CRYENGINE Projects\CryAdventure\Code\StdAfx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StdAfx.h</PrecompiledHeaderFile>

@@ -1,0 +1,11 @@
+<AssetMetadata version="0" type="Character" guid="e77dfad4-bd3c-8a8d-8b95-e59c8828bcb1">
+ <Files>
+  <File path="standing.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>Objects/Characters/TestChar/standing.chr</Path>
+  <Path>Objects/Characters/TestChar/standing_Alpha_Joints.skin</Path>
+  <Path>Objects/Characters/TestChar/standing_Alpha_Surface.skin</Path>
+ </Dependencies>
+</AssetMetadata>

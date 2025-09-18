@@ -1,0 +1,12 @@
+<ControllerDef>
+	<Tags filename="Animations/Mannequin/ADB/Tags.xml"/>
+	<Fragments filename="Animations/Mannequin/ADB/FragmentIds.xml"/> 
+	<FragmentDefs>
+	</FragmentDefs>
+	<ScopeContextDefs>
+		<ThirdPersonCharacter />
+	</ScopeContextDefs>
+	<ScopeDefs>
+		<ThirdPerson layer="1" numLayers="3" context="ThirdPersonCharacter"/>
+	</ScopeDefs>
+</ControllerDef>

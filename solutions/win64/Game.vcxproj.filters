@@ -8,6 +8,9 @@
     <ClCompile Include="C:\Users\Borges\Documents\CRYENGINE Projects\CryAdventure\solutions\win64\Components_uber.cpp">
       <Filter>UBER FILES</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Code\Helpers\ComponentHelper.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\Borges\Documents\CRYENGINE Projects\CryAdventure\Code\GamePlugin.cpp" />
@@ -34,6 +37,9 @@
     <ClInclude Include="C:\Users\Borges\Documents\CRYENGINE Projects\CryAdventure\Code\Components\SpawnPoint.h">
       <Filter>Components</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Code\Helpers\ComponentHelper.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Borges\Documents\CRYENGINE Projects\CryAdventure\Code\CMakeLists.txt" />
@@ -52,6 +58,9 @@
     </Filter>
     <Filter Include="UBER FILES">
       <UniqueIdentifier>{90F6C496-F169-3407-8BF4-A6AE6480B558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{36c2a90a-853f-4b2b-8c19-8a807416e3c2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

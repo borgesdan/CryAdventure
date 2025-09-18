@@ -41,8 +41,8 @@ Rotation
 X: 90
 Z: 180
 
-Select 1 frame
-Select Root bone + CTRL + Select rip bone
+
+Select Root bone + SHIFT + Select rip bone
 Go to Pose > Animation > Bake Action
 Deselect "Only Selected Bones"
 

@@ -30,9 +30,18 @@ public:
 	virtual void ProcessEvent(const SEntityEvent& event) override;
 
 protected:
+	void InitializeLocalPlayer();
+	void UpdateAnimation(float frameTime);
+	void UpdateCamera(float frameTime);
+
+protected:
 	Cry::DefaultComponents::CCameraComponent* m_pCameraComponent = nullptr;
 	Cry::DefaultComponents::CCharacterControllerComponent* m_pCharacterController = nullptr;
 	Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAnimationComponent = nullptr;
 	Cry::DefaultComponents::CInputComponent* m_pInputComponent = nullptr;
 	Cry::Audio::DefaultComponents::CListenerComponent* m_pAudioListenerComponent = nullptr;
+	
+	FragmentID m_idleFragmentId;
+	FragmentID m_activeFragmendId;
+	bool m_isAlive{ false };
 };

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="20d2d6c0-905d-265c-6c1b-b5da8921ac81" source="TestChar.fbx">
+ <Files>
+  <File path="TestChar_Alpha_Surface.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">34480</Detail>
+  <Detail name="vertexCount">22978</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">54</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./TestChar.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

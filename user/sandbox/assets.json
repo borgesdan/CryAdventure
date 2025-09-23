@@ -5149,6 +5149,42 @@
 		},
 		{
 			"type": "Xml",
+			"guid": "d98bd87e-80ac-5efd-e106-e2966ac7d605",
+			"name": "ControllerDefinition",
+			"timestamp": 1758228581,
+			"files": [ "Animations/Mannequin/ADB/Test/ControllerDefinition.xml" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "Animations/Mannequin/ADB/Test/ControllerDefinition.xml.cryasset",
+			"details": [ { "key": "rootTag", "value": "ControllerDef" } ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Xml",
+			"guid": "4fb8921f-e98a-6bf4-38d7-ff876089148a",
+			"name": "FragmentIds",
+			"timestamp": 1758228550,
+			"files": [ "Animations/Mannequin/ADB/Test/FragmentIds.xml" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "Animations/Mannequin/ADB/Test/FragmentIds.xml.cryasset",
+			"details": [ { "key": "rootTag", "value": "TagDefinition" } ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Xml",
+			"guid": "05f32513-7015-eba6-7ed3-632b599def30",
+			"name": "Tags",
+			"timestamp": 1758228522,
+			"files": [ "Animations/Mannequin/ADB/Test/Tags.xml" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "Animations/Mannequin/ADB/Test/Tags.xml.cryasset",
+			"details": [ { "key": "rootTag", "value": "TagDefinition" } ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Xml",
 			"guid": "63ea36bd-4f59-4a62-04e4-b55a83877d8b",
 			"name": "Player",
 			"timestamp": 1652893782,
@@ -5808,10 +5844,72 @@
 			"dependencies": [ ]
 		},
 		{
+			"type": "Animation",
+			"guid": "e719604e-bf70-2271-1646-4fd5e1bf477e",
+			"name": "standing_DefaultChar_Action_001",
+			"timestamp": 1758383974,
+			"files": [ "Animations/TestChar/standing_DefaultChar_Action_001.caf" ],
+			"workFiles": [ ],
+			"source": "Animations/TestChar/standing.fbx",
+			"metadata": "Animations/TestChar/standing_DefaultChar_Action_001.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "37a9087b-2c1d-4db0-61a8-66c6042b0b37",
+			"name": "standing_DefaultChar_Armature_mixamo_com_Layer0",
+			"timestamp": 1758383977,
+			"files": [
+				"Animations/TestChar/standing_DefaultChar_Armature_mixamo_com_Layer0.caf"
+			],
+			"workFiles": [ ],
+			"source": "Animations/TestChar/standing.fbx",
+			"metadata": "Animations/TestChar/standing_DefaultChar_Armature_mixamo_com_Layer0.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "03d73fb2-7033-823e-b940-8c3ce2a61157",
+			"name": "walk_Armature_Action",
+			"timestamp": 1758400285,
+			"files": [ "Animations/TestChar/walk_Armature_Action.caf" ],
+			"workFiles": [ ],
+			"source": "Animations/TestChar/walk.fbx",
+			"metadata": "Animations/TestChar/walk_Armature_Action.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "bd69d107-298a-8b5b-62c1-a41ba252be09",
+			"name": "walk_Armature_Action_001",
+			"timestamp": 1758400288,
+			"files": [ "Animations/TestChar/walk_Armature_Action_001.caf" ],
+			"workFiles": [ ],
+			"source": "Animations/TestChar/walk.fbx",
+			"metadata": "Animations/TestChar/walk_Armature_Action_001.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "e2caf8fc-1ec0-2dca-0595-270d0cc93665",
+			"name": "walk_Armature_Armature_mixamo_com_Layer0",
+			"timestamp": 1758400290,
+			"files": [ "Animations/TestChar/walk_Armature_Armature_mixamo_com_Layer0.caf" ],
+			"workFiles": [ ],
+			"source": "Animations/TestChar/walk.fbx",
+			"metadata": "Animations/TestChar/walk_Armature_Armature_mixamo_com_Layer0.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
 			"type": "Level",
 			"guid": "90f6f9d4-0804-283c-02dc-2d438ba572bd",
 			"name": "example",
-			"timestamp": 1652893787,
+			"timestamp": 1758635785,
 			"files": [ "Levels/example/example.level" ],
 			"workFiles": [ ],
 			"source": "",
@@ -5877,6 +5975,10 @@
 					"usageCount": 0
 				},
 				{
+					"path": "%engine%/engineassets/objects/primitive_sphere.cgf",
+					"usageCount": 0
+				},
+				{
 					"path": "%engine%/engineassets/texturemsg/defaultnouvs.dds",
 					"usageCount": 0
 				},
@@ -5885,272 +5987,56 @@
 					"usageCount": 0
 				},
 				{
-					"path": "%engine%/engineassets/textures/defaults/16_12.dds",
-					"usageCount": 0
-				},
-				{
-					"path": "%engine%/engineassets/textures/defaults/16_34.dds",
-					"usageCount": 0
-				},
-				{
-					"path": "%engine%/engineassets/textures/defaults/16_5.dds",
-					"usageCount": 0
-				},
-				{
-					"path": "%engine%/engineassets/textures/defaults/16_grey.dds",
+					"path": "%engine%/engineassets/textures/skys/night/half_moon.dds",
 					"usageCount": 0
 				},
 				{ "path": "%engine%/engineassets/textures/white.dds", "usageCount": 0 },
 				{
-					"path": "animations/mannequin/adb/firstpersoncontrollerdefinition.xml",
+					"path": "animations/mannequin/adb/test/controllerdefinition.xml",
 					"usageCount": 0
 				},
 				{
-					"path": "animations/mannequin/adb/playerfragmentids.xml",
+					"path": "animations/mannequin/adb/test/fragmentids.xml",
 					"usageCount": 0
 				},
-				{ "path": "animations/mannequin/adb/playertags.xml", "usageCount": 0 },
+				{ "path": "animations/mannequin/adb/test/tags.xml", "usageCount": 0 },
 				{
-					"path": "animations/motusanims/ide2move/idle_to_jog_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/ide2move/idle_to_run_3p.caf",
+					"path": "animations/testchar/standing_defaultchar_action_001.caf",
 					"usageCount": 0
 				},
 				{
-					"path": "animations/motusanims/ide2move/idle_to_walk_3p.caf",
+					"path": "animations/testchar/standing_defaultchar_armature_mixamo_com_layer0.caf",
 					"usageCount": 0
 				},
 				{
-					"path": "animations/motusanims/ide2move/jog_to_idle_3p.caf",
+					"path": "animations/testchar/walk_armature_action.caf",
 					"usageCount": 0
 				},
 				{
-					"path": "animations/motusanims/ide2move/run_to_idle_3p.caf",
+					"path": "animations/testchar/walk_armature_action_001.caf",
 					"usageCount": 0
 				},
 				{
-					"path": "animations/motusanims/ide2move/walk_to_idle_3p.caf",
+					"path": "animations/testchar/walk_armature_armature_mixamo_com_layer0.caf",
 					"usageCount": 0
 				},
-				{ "path": "animations/motusanims/idle_3p.caf", "usageCount": 0 },
-				{ "path": "animations/motusanims/jog_bck_3p.caf", "usageCount": 0 },
-				{ "path": "animations/motusanims/jog_fwd_3p.caf", "usageCount": 0 },
-				{
-					"path": "animations/motusanims/rifleanims/rifleaim_idle_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/rifleanims/riflewalkaim_bwd_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/rifleanims/riflewalkaim_fwd_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/rifleanims/steprifleaimrotate_lft_90_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/rifleanims/steprifleaimrotate_rgt_90_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/rifleanims/walkcrossrifleaim_bck_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/rifleanims/walkcrossrifleaim_bck_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/rifleanims/walkcrossrifleaim_fwd_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/rifleanims/walkcrossrifleaim_fwd_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/rifleanims/walkstraferifleaim_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/rifleanims/walkstraferifleaim_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{ "path": "animations/motusanims/run_fwd_3p.caf", "usageCount": 0 },
-				{
-					"path": "animations/motusanims/steprotate/steprotate_lft_135_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/steprotate/steprotate_lft_180_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/steprotate/steprotate_lft_45_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/steprotate/steprotate_lft_90_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/steprotate/steprotate_rgt_135_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/steprotate/steprotate_rgt_180_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/steprotate/steprotate_rgt_45_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/steprotate/steprotate_rgt_90_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/jogcross_bck_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/jogcross_bck_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/jogcross_fwd_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/jogcross_fwd_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/jogstrafe_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/jogstrafe_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/runcross_fwd_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/runcross_fwd_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/runstrafe_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/runstrafe_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/walkcross_bck_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/walkcross_bck_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/walkcross_fwd_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/walkcross_fwd_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/walkstrafe_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/walkstrafe_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/turns/jogturn_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/turns/jogturn_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/turns/runturn_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/turns/runturn_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/turns/walkturn_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/turns/walkturn_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{ "path": "animations/motusanims/walk_bck_3p.caf", "usageCount": 0 },
-				{ "path": "animations/motusanims/walk_fwd_3p.caf", "usageCount": 0 },
-				{ "path": "engineassets/materials/sky/sky.mtl", "usageCount": 0 },
 				{
 					"path": "engineassets/materials/water/ocean_default.mtl",
 					"usageCount": 0
 				},
-				{ "path": "engineassets/texturemsg/defaultnouvs.dds", "usageCount": 0 },
+				{ "path": "libs/environmentpresets/example.env", "usageCount": 1 },
+				{ "path": "objects/characters/testchar/testchar.cdf", "usageCount": 0 },
+				{ "path": "objects/characters/testchar/testchar.chr", "usageCount": 0 },
+				{ "path": "objects/characters/testchar/testchar.mtl", "usageCount": 0 },
 				{
-					"path": "engineassets/textures/skys/night/half_moon.dds",
-					"usageCount": 0
-				},
-				{ "path": "libs/environmentpresets/example.xml", "usageCount": 0 },
-				{
-					"path": "objects/characters/samplecharacter/mcg_ddna.dds",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/samplecharacter/mcg_diff.dds",
+					"path": "objects/characters/testchar/testchar_alpha_joints.skin",
 					"usageCount": 0
 				},
 				{
-					"path": "objects/characters/samplecharacter/mcg_spec.dds",
+					"path": "objects/characters/testchar/testchar_alpha_surface.skin",
 					"usageCount": 0
 				},
-				{
-					"path": "objects/characters/samplecharacter/motusbody.skin",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/samplecharacter/motusbodymat.mtl",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/samplecharacter/skelproxy.chr",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/samplecharacter/thirdperson.cdf",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/weapons/sampleweapon/defaultweapon.cgf",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/weapons/sampleweapon/defaultweapon.mtl",
-					"usageCount": 0
-				},
+				{ "path": "scripts/ai/factions.xml", "usageCount": 0 },
 				{
 					"path": "textures/cubemaps/example/environmentprobe1_cm.dds",
 					"usageCount": 0
@@ -6516,6 +6402,123 @@
 					"path": "Objects/Weapons/SampleWeapon/defaultweapon.mtl",
 					"usageCount": 0
 				}
+			]
+		},
+		{
+			"type": "Character",
+			"guid": "a05b8a9b-75fe-7016-8e09-7719dc6da3b8",
+			"name": "testchar",
+			"timestamp": 1758382226,
+			"files": [ "Objects/Characters/TestChar/testchar.cdf" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "Objects/Characters/TestChar/testchar.cdf.cryasset",
+			"details": [ ],
+			"dependencies": [
+				{ "path": "Objects/Characters/TestChar/TestChar.chr", "usageCount": 0 },
+				{ "path": "Objects/Characters/TestChar/TestChar.mtl", "usageCount": 0 },
+				{
+					"path": "Objects/Characters/TestChar/TestChar_Alpha_Surface.skin",
+					"usageCount": 0
+				},
+				{ "path": "Objects/Characters/TestChar/testchar.mtl", "usageCount": 0 },
+				{
+					"path": "Objects/Characters/TestChar/TestChar_Alpha_Joints.skin",
+					"usageCount": 0
+				},
+				{ "path": "Objects/Characters/TestChar/testchar.mtl", "usageCount": 0 }
+			]
+		},
+		{
+			"type": "Mesh",
+			"guid": "0f85a2e6-7fe7-3a6d-8dc7-1bec6f4e7927",
+			"name": "TestChar",
+			"timestamp": 1758401959,
+			"files": [ "Objects/Characters/TestChar/TestChar.cgf" ],
+			"workFiles": [ ],
+			"source": "Objects/Characters/TestChar/TestChar.fbx",
+			"metadata": "Objects/Characters/TestChar/TestChar.cgf.cryasset",
+			"details": [
+				{ "key": "16BitPrecision", "value": "false" },
+				{ "key": "materialCount", "value": "3" },
+				{ "key": "triangleCount", "value": "55320" },
+				{ "key": "vertexCount", "value": "35451" }
+			],
+			"dependencies": [
+				{ "path": "Objects/Characters/TestChar/TestChar.mtl", "usageCount": 1 }
+			]
+		},
+		{
+			"type": "Skeleton",
+			"guid": "fc7c2a40-91c1-de7e-1d41-849a7b69f1c6",
+			"name": "TestChar",
+			"timestamp": 1758378799,
+			"files": [ "Objects/Characters/TestChar/TestChar.chr" ],
+			"workFiles": [ ],
+			"source": "Objects/Characters/TestChar/TestChar.fbx",
+			"metadata": "Objects/Characters/TestChar/TestChar.chr.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Material",
+			"guid": "e2ceb29a-cbad-4904-6651-4dc947475f4c",
+			"name": "TestChar",
+			"timestamp": 1758401993,
+			"files": [ "Objects/Characters/TestChar/TestChar.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "Objects/Characters/TestChar/TestChar.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "SkinnedMesh",
+			"guid": "a7f296ff-a4f9-c614-849f-6030911392f3",
+			"name": "TestChar_Alpha_Joints",
+			"timestamp": 1758378801,
+			"files": [ "Objects/Characters/TestChar/TestChar_Alpha_Joints.skin" ],
+			"workFiles": [ ],
+			"source": "Objects/Characters/TestChar/TestChar.fbx",
+			"metadata": "Objects/Characters/TestChar/TestChar_Alpha_Joints.skin.cryasset",
+			"details": [
+				{ "key": "16BitPrecision", "value": "false" },
+				{ "key": "bonesCount", "value": "51" },
+				{ "key": "materialCount", "value": "3" },
+				{ "key": "triangleCount", "value": "20840" },
+				{ "key": "vertexCount", "value": "12473" }
+			],
+			"dependencies": [
+				{ "path": "Objects/Characters/TestChar/TestChar.mtl", "usageCount": 1 }
+			]
+		},
+		{
+			"type": "SkinnedMesh",
+			"guid": "20d2d6c0-905d-265c-6c1b-b5da8921ac81",
+			"name": "TestChar_Alpha_Surface",
+			"timestamp": 1758378802,
+			"files": [ "Objects/Characters/TestChar/TestChar_Alpha_Surface.skin" ],
+			"workFiles": [ ],
+			"source": "Objects/Characters/TestChar/TestChar.fbx",
+			"metadata": "Objects/Characters/TestChar/TestChar_Alpha_Surface.skin.cryasset",
+			"details": [
+				{ "key": "16BitPrecision", "value": "false" },
+				{ "key": "bonesCount", "value": "54" },
+				{ "key": "materialCount", "value": "3" },
+				{ "key": "triangleCount", "value": "34480" },
+				{ "key": "vertexCount", "value": "22978" }
+			],
+			"dependencies": [
+				{ "path": "Objects/Characters/TestChar/TestChar.mtl", "usageCount": 1 }
 			]
 		},
 		{

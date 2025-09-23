@@ -1,6 +1,6 @@
-<AssetMetadata version="0" type="Mesh" guid="a7c4cf9f-4069-9917-a67d-f9ecb6247864" source="standing.fbx">
+<AssetMetadata version="0" type="Mesh" guid="0f85a2e6-7fe7-3a6d-8dc7-1bec6f4e7927" source="TestChar.fbx">
  <Files>
-  <File path="standing.cgf"/>
+  <File path="TestChar.cgf"/>
  </Files>
  <Details>
   <Detail name="materialCount">3</Detail>
@@ -9,6 +9,6 @@
   <Detail name="16BitPrecision">false</Detail>
  </Details>
  <Dependencies>
-  <Path usageCount="1">./standing.mtl</Path>
+  <Path usageCount="1">./TestChar.mtl</Path>
  </Dependencies>
 </AssetMetadata>

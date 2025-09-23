@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Character" guid="a05b8a9b-75fe-7016-8e09-7719dc6da3b8">
+ <Files>
+  <File path="testchar.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>Objects/Characters/TestChar/TestChar.chr</Path>
+  <Path>Objects/Characters/TestChar/TestChar.mtl</Path>
+  <Path>Objects/Characters/TestChar/TestChar_Alpha_Surface.skin</Path>
+  <Path>Objects/Characters/TestChar/testchar.mtl</Path>
+  <Path>Objects/Characters/TestChar/TestChar_Alpha_Joints.skin</Path>
+  <Path>Objects/Characters/TestChar/testchar.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

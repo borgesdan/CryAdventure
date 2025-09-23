@@ -1,6 +1,6 @@
-<AssetMetadata version="0" type="Material" guid="d88af1ec-ff44-bbcc-76f7-1534e5ba6f44">
+<AssetMetadata version="0" type="Material" guid="e2ceb29a-cbad-4904-6651-4dc947475f4c">
  <Files>
-  <File path="standing.mtl"/>
+  <File path="TestChar.mtl"/>
  </Files>
  <Details>
   <Detail name="subMaterialCount">3</Detail>

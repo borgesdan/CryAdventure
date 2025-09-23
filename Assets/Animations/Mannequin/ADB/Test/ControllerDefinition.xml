@@ -1,12 +1,13 @@
 <ControllerDef>
-	<Tags filename="Animations/Mannequin/ADB/Test/Tags.xml"/>
-	<Fragments filename="Animations/Mannequin/ADB/Test/FragmentIds.xml"/> 
-	<FragmentDefs>
-	</FragmentDefs>
-	<ScopeContextDefs>
-		<ThirdPersonCharacter />
-	</ScopeContextDefs>
-	<ScopeDefs>
-		<ThirdPerson layer="1" numLayers="3" context="ThirdPersonCharacter"/>
-	</ScopeDefs>
+ <Tags filename="Animations/Mannequin/ADB/Test/Tags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/Test/FragmentIds.xml"/>
+ <FragmentDefs>
+  <Idle scopes="ThirdPerson"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <ThirdPersonCharacter />
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <ThirdPerson layer="1" numLayers="3" context="ThirdPersonCharacter"/>
+ </ScopeDefs>
 </ControllerDef>

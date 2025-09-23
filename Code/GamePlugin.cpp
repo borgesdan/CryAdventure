@@ -3,6 +3,7 @@
 #include "GamePlugin.h"
 
 #include "Components/Player.h"
+#include "Components/MainPlayer.h"
 
 #include <CrySchematyc/Env/IEnvRegistry.h>
 #include <CrySchematyc/Env/EnvPackage.h>
@@ -107,7 +108,7 @@ bool CGamePlugin::OnClientConnectionReceived(int channelId, bool bIsReset)
 	}
 
 	//Chamada para exibir o jogador padrão ao iniciar um level.
-	//SpawnPlayerEntity(spawnParams, channelId);	
+	SpawnPlayerEntity(spawnParams, channelId);	
 
 	return true;
 }
@@ -121,7 +122,7 @@ void CGamePlugin::SpawnPlayerEntity(SEntitySpawnParams& spawnParams, int channel
 		pPlayerEntity->GetNetEntity()->SetChannelId(channelId);
 
 		// Create the player component instance
-		CPlayerComponent* pPlayer = pPlayerEntity->GetOrCreateComponentClass<CPlayerComponent>();
+		auto* pPlayer = pPlayerEntity->GetOrCreateComponentClass<CMainPlayerComponent>();
 
 		if (pPlayer != nullptr)
 		{

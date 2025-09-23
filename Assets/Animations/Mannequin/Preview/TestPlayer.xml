@@ -1,7 +1,7 @@
 <MannequinPreview>
 <controllerDef filename="Animations/Mannequin/ADB/Test/ControllerDefinition.xml"/>
  <contexts> 
-	<contextData name="ThirdPerson" enabled="1" database="Animations/Mannequin/ADB/Test/FirstPerson.adb" context="ThirdPersonCharacter" model="Objects/Characters/TestChar/standing.cdf"/>
+	<contextData name="ThirdPerson" enabled="1" database="Animations/Mannequin/ADB/Test/FirstPerson.adb" context="ThirdPersonCharacter" model="Objects/Characters/TestChar/TestChar.cdf"/>
  </contexts>
  <History StartTime="0" EndTime="0"/>
 </MannequinPreview>

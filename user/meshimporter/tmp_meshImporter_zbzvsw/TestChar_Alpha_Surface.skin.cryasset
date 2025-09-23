@@ -1,6 +1,6 @@
-<AssetMetadata version="0" type="SkinnedMesh" guid="7ccb9696-d185-b3f8-0640-aefff355db69" source="standing.fbx">
+<AssetMetadata version="0" type="SkinnedMesh" guid="2d883c28-b000-ed58-2897-2f7f1d420798" source="TestChar.fbx">
  <Files>
-  <File path="standing_Alpha_Surface.skin"/>
+  <File path="TestChar_Alpha_Surface.skin"/>
  </Files>
  <Details>
   <Detail name="materialCount">3</Detail>
@@ -10,6 +10,6 @@
   <Detail name="bonesCount">54</Detail>
  </Details>
  <Dependencies>
-  <Path usageCount="1">./standing.mtl</Path>
+  <Path usageCount="1">./TestChar.mtl</Path>
  </Dependencies>
 </AssetMetadata>
